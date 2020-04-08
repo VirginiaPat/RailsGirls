@@ -17,4 +17,5 @@ RSpec.describe Idea, type: :model do
 		idea = Idea.create!(description:"I have a description", name:"Mitsos")
 		expect(idea.description).to eq("I have a description")
 	end
+	
 end
